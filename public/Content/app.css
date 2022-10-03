@@ -1,6 +1,10 @@
 /* custom css */
 /* custom css */
-
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
 #b1{                /* css modification for button in home page */
     display: flexbox;
     position:absolute;
@@ -12,7 +16,7 @@
 }
 
 #p1{            /* css modification for mission statement in home page */
-    background-color: rgb(87, 118, 148);
+    background-color: pink;
     padding: 30px;
     margin: 50px;
     position: absolute;
@@ -23,7 +27,7 @@
 h4 {
     margin: 0 0 20px;
     font-weight: 400;
-    color: #4c7b97;
+    color: palevioletred;
     }
 
     form {
