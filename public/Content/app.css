@@ -1,5 +1,6 @@
 /* custom css */
-/* custom css */
+/* app.css  */
+/* My Duyen Phung 301218170 Oct 4 2022*/
 
 body, html {
     height: 100%;
@@ -9,11 +10,7 @@ body, html {
 
 
 
-h4 {
-    margin: 0 0 20px;
-    font-weight: 400;
-    color: palevioletred;
-    }
+
 
 form {
     padding: 25px;
@@ -30,7 +27,7 @@ form {
         float: left;
         width: 33.33%;
         padding: 10px;
-        height: 300px; /* Should be removed. Only for demonstration */
+        height: 500px; /* Should be removed. Only for demonstration */
       }
       
       /* Clear floats after the columns */
@@ -60,4 +57,8 @@ footer {
     width:100%;
     background:#999;
  }
- 
+ .project-img{
+  display: flex;
+  justify-content: center;
+  }
+  
